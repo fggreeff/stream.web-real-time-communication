@@ -16,6 +16,7 @@ A detailed, step by step guide, of the setup of any external dependencies that a
 
 - Chrome 47 or above
 - [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb), or use your own web server of choice.
+- [Node](https://nodejs.org/en/download/)
 
 ## Installing
 
@@ -25,6 +26,10 @@ Step by step instructions on how to get a working version of the project on your
 $ git clone <repo>
 $ cd ./<repo>
 ```
+
+- `npm install`
+- `node index.js`
+- [localhost:8080](http://localhost:8080)
 
 # Running the tests
 
