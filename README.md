@@ -17,33 +17,34 @@ A detailed, step by step guide, of the setup of any external dependencies that a
 - Chrome 47 or above
 - [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb), or use your own web server of choice.
 - [Node](https://nodejs.org/en/download/)
+- [Docker](https://www.docker.com/products/docker-desktop)
 
 ## Installing
 
-Step by step instructions on how to get a working version of the project on your local machine, such as
+- clone repository
 
-```
-$ git clone <repo>
-$ cd ./<repo>
-```
+Run App in container:
+- `docker-compose up`
+- [localhost:8080](http://localhost:8080)
 
+Run App locally:
 - `npm install`
 - `node index.js`
 - [localhost:8080](http://localhost:8080)
 
-# Running the tests
+## Running the tests
 
 An explanation on how to run any automated tests that relate to the project.
 
-# Deployment
+## Deployment
 
 Detail any steps required to deploy the service/project to systems other than the local machine.
 
-# Debug
+## Debug
 
 Take a look at [chrome://webrtc-internals](chrome://webrtc-internals). This provides WebRTC stats and debugging data
 
-# Resources
+## Resources
 
-[codelabs tutorial](https://codelabs.developers.google.com/codelabs/webrtc-web/#0)
-[webrtc samples](https://webrtc.github.io/samples/)
+- [codelabs tutorial](https://codelabs.developers.google.com/codelabs/webrtc-web/#0)
+- [webrtc samples](https://webrtc.github.io/samples/)
