@@ -1,0 +1,12 @@
+version: "3.6"
+
+services:
+  webrtc:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - /app/node_modules # This is a bookmark/hold on this folder. It won't be changed
+      - .:/app # copy server folder to app folder in container
+    ports:
+      - 8080:8080
