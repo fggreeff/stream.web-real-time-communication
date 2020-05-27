@@ -34,6 +34,10 @@ An explanation on how to run any automated tests that relate to the project.
 
 Detail any steps required to deploy the service/project to systems other than the local machine.
 
+# Debug
+
+Take a look at [chrome://webrtc-internals](chrome://webrtc-internals). This provides WebRTC stats and debugging data
+
 # Resources
 
 [codelabs tutorial](https://codelabs.developers.google.com/codelabs/webrtc-web/#0)
