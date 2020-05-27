@@ -16,6 +16,7 @@ A detailed, step by step guide, of the setup of any external dependencies that a
 
 - Chrome 47 or above
 - [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb), or use your own web server of choice.
+- [Node](https://nodejs.org/en/download/)
 
 ## Installing
 
@@ -26,6 +27,10 @@ $ git clone <repo>
 $ cd ./<repo>
 ```
 
+- `npm install`
+- `node index.js`
+- [localhost:8080](http://localhost:8080)
+
 # Running the tests
 
 An explanation on how to run any automated tests that relate to the project.
@@ -33,6 +38,10 @@ An explanation on how to run any automated tests that relate to the project.
 # Deployment
 
 Detail any steps required to deploy the service/project to systems other than the local machine.
+
+# Debug
+
+Take a look at [chrome://webrtc-internals](chrome://webrtc-internals). This provides WebRTC stats and debugging data
 
 # Resources
 
